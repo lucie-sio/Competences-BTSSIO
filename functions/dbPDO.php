@@ -7,9 +7,9 @@
  * @return 
  */
 function callPDO(){
-    $user = 'bxxxecxn_skillsSIO';
-    $password = '@eH3fXbHfHeXzM^7z3';
-    $dsn = 'mysql:host=localhost;dbname=bxxxecxn_competences-btssio;charset=utf8mb4' ;
+    $user = '[XXXXX]';
+    $password = '[XXXXX]';
+    $dsn = 'mysql:host=localhost;dbname=[XXXXX];charset=utf8mb4' ;
     try {
         return new PDO($dsn, $user, $password);
     } catch(PDOException $e) { 
